@@ -8,7 +8,7 @@ setuptools.setup(
     version='0.1.0',
     description='A logging utility for dumping structured data into Google Sheet',
     author='Emre Aksan (@emreaksan), Manuel Kaufmann (@kaufManu), Seonwook Park (@swook)',
-    url='https://github.com/pypa/sampleproject',
+    url='https://github.com/emreaksan/glogger',
     
     packages=setuptools.find_packages(),
     include_package_data=True,
