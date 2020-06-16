@@ -18,7 +18,8 @@ The entries should be given in a dictionary format where the keys correspond to 
 header does not exist, it is created automatically.  
  
 
-####Credential file
+#### Credential file
+
 If you don't have a Google Sheet Credential JSON:
 1. Go to https://console.developers.google.com
 2. Create a project if you don't have any. 
@@ -42,9 +43,9 @@ If you have a Google Sheet Credential JSON:
    1. Click on `Share` on top-right.
    2. Under the `Get link` section, click on `Change` and select `Anyone with the link` option with `Editor` role.
 
-####Workbook 
+#### Workbook 
 You can create a Google Sheet file in your Google Drive. The workbook address can be found in the URL as follows: 
 docs.google.com/spreadsheets/d/`1Ppq9okztrceM2Ym2UAz_GQfRKKmJUx3O4R9IFKGUvXw`/edit#gid=0 
 
-####Sheet 
+#### Sheet 
 The sheet name is by default `Sheet1` for a new file where you can give any names. 
