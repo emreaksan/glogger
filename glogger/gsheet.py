@@ -122,7 +122,8 @@ class GoogleSheetLogger(object):
     
     try:
       header = sheet.row_values(1)
-      row_index = sheet.col_values(1).index(identifier)
+      identifier_idx = header.index(self.identifier_key) + 1
+      row_index = sheet.col_values(identifier_idx).index(str(identifier))
     except:  # pylint: disable=bare-except
       try:
         header = sheet.row_values(1)
