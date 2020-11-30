@@ -16,6 +16,6 @@ setuptools.setup(
     install_requires=[
         'gspread==3.6.0',
         'google-auth==1.16.1',
-        'numpy==1.18.5',
+        'numpy>=1.18.5',
         ],
     )
